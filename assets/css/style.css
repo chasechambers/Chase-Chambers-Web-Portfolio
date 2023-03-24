@@ -1,0 +1,42 @@
+:root {
+    --color-background: red;
+    --alt-color-background: orange;
+    --h1-color: blue;
+}
+
+* {
+    margin: 0%;
+}
+header {
+    background-color: var(--color-background);
+    width: auto;
+    height: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+h1 {
+    color:var(--h1-color);
+}
+
+main {
+    background-color: var(--alt-color-background);
+}
+footer {
+    background-color: var(--color-background);
+}
+
+.menu-section {
+    
+}
+#about-me {
+
+}
+
+#projects {
+
+}
+
+#contact-info {
+
+}
