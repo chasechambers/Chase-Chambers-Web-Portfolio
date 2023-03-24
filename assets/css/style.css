@@ -21,22 +21,23 @@ h1 {
 
 main {
     background-color: var(--alt-color-background);
+    height: 500px;
 }
 footer {
     background-color: var(--color-background);
 }
 
 .menu-section {
-    
+    padding-top: 20px;
 }
 #about-me {
-
+    padding: 20px;
 }
 
 #projects {
-
+    padding: 20px;
 }
 
 #contact-info {
-
+    padding: 20px;
 }
