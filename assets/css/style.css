@@ -1,70 +1,83 @@
+/* OVERALL FIXES */
+
 :root {
-    --color-background: red;
-    --alt-color-background: orange;
+    --color-background: #b3b3b3;
     --h1-color: blue;
+    font-family: ubuntu;
 }
 
 * {
     margin: 0%;
-}
-header {
     background-color: var(--color-background);
-    width: auto;
-    height: 100px;
-    padding: 100px;
-    text-align: center;
+    list-style:none;
 }
 
-header h1 {
-    width: 20%;
-    margin: 70px auto 0px auto;
-}
-
-header img {
-    height: 20%;
-    width: 20%;
-    top: 20px;
-    display: inline-block;
-    position: absolute;
-    
-}
-
-header .menu-section {
-    display: inline-block;
-    
+a {
+    text-decoration: none;
 }
 
 h1 {
     color:var(--h1-color);
 }
 
+/* HEADER SECTION */
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: fasthand;
+
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+header .menu-section {
+    float:right;
+    display: inline-block;
+
+}
+
+/* MAIN BODY SECTION */
+
 main {
-    background-color: var(--alt-color-background);
     height: 500px;
     text-align: center;
 }
-footer {
-    background-color: var(--color-background);
-}
 
+.content {
+    display: inline-block;
+}
 .menu-section {
     padding-top: 20px;
 }
-#about-me {
-    padding: 20px;
-}
-
-#projects {
-    padding: 20px;
-}
-
+#about-me,
+#projects,
 #contact-info {
-    padding: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
 }
+
 #contact-info ul {
-    list-style: none;
-    text-align: left;
-    width: 20%;
+   
+    width: 3    0%;
     margin: 0px auto 0px auto;
     padding-top: 15px;
 }
+
+/* FOOTER SECTION */
+
+footer {
+   
+}
+
+@media
