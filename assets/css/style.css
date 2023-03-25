@@ -11,8 +11,27 @@ header {
     background-color: var(--color-background);
     width: auto;
     height: 100px;
-    padding: 100px;
+    padding: 200px;
     text-align: center;
+}
+
+header h1 {
+    width: 20%;
+    margin: 0px auto 0px auto;
+}
+
+header img {
+    height: 20%;
+    width: 20%;
+    top: 20px;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+header .menu-section {
+    display: inline-block;
+    
 }
 
 h1 {
@@ -40,4 +59,7 @@ footer {
 
 #contact-info {
     padding: 20px;
+}
+#contact-info ul {
+    list-style: none;
 }
