@@ -1,20 +1,22 @@
 /* OVERALL FIXES */
 
 :root {
-    --head-foot-background-color: rgb(114, 211, 228);
-    --main-background-color: #b3b3b3;
-    --h1-color: blue;
+    --head-foot-background-color: #40528f;
+    --main-background-color: #EFF5FC;
+    --h1-color: #C3D8F4;
     font-family: ubuntu;
+    --main-color: #fff;
 }
 
 * {
     margin: 0%;
- 
+    
     list-style:none;
 }
 
 a {
     text-decoration: none;
+    color: var(--h1-color);
 }
 
 h1 {
@@ -28,6 +30,7 @@ header {
     padding: 20px;
     background-color: var(--head-foot-background-color);
     
+    
 }
 
 header h1 {
@@ -39,17 +42,17 @@ header h1 {
 header ul {
     list-style: none;
     
+    
 }
 
 header li {
     display: inline-block;
-    padding: 0px 10px 0px 10px;
-    background: none;
+    padding: 20px 10px 20px 10px;
+ 
 }
 
 header .menu-section {
     float:right;
-
 }
 
 /* MAIN BODY SECTION */
@@ -58,13 +61,9 @@ main {
     height: auto;
     text-align: center;
     background-color: var(--main-background-color);
-}
-
-.content {
-    display: inline-block;
-}
-.menu-section {
-    padding-top: 20px;
+    background-image: url("../images/background-image.jpg");
+    background-image: no-repeat;
+    color: var(--main-color);
 }
 
 #about-me,
@@ -75,30 +74,60 @@ main {
     padding-bottom: 20px;
 }
 
+/* GET TO KNOW ME SECTION */
+
+.content {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    border: 10px forestgreen;
+    border-style: solid;
+    background-color: forestgreen;
+    padding: 7px 0px 70px 5px;
+}
+
+.profile-pic {
+    float: left;
+    width: 45%;
+    margin-right: 30px;
+}
+
+p {
+   
+}
+
+/* TECHNICAL TOOLBOX SECTION */
+
+.toolbox {
+    padding: 30px;
+}
+
+/* PROJECTS SECTION */
+
 .card {
     border-style: solid;
     border-width: 1px;
-    border-radius: 30px;
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 10px;
     cursor: pointer;
-
 }
 
 /* This item creates a break between first project and rest */
 .break {
     flex-basis: 100%;
     height: 0;
+    padding-bottom: 100px;
   }
 
 #projects {
- flex: 4;
+flex: 2;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
 }
 
 
@@ -107,30 +136,39 @@ main {
 }
 
 #projects .card:hover .project-description {
-    display: block;
+    display: flex;
     padding: 5px 0px 5px 0px;
-    
 }
 
-#projects .card img {
-    width: auto;
+#projects .card p {
+    margin-left: 100px;
 }
+
+/* CONTACT INFO SECTION */
 
 #contact-info ul {
-   
-    width: 100%;
+   margin-left: 850px;
+    width: 50%;
     padding-top: 15px;
+    text-align: left;
 }
+
+#contact-info ul li {
+    padding: 5px;
+}
+
 /* FOOTER SECTION */
 
 footer {
    background-color: var(--head-foot-background-color);
    padding: 25px 25px 40px 25px;
+   color: var(--h1-color);
 }
 
 footer a {
     float: right;
 }
+
 footer p {
     float: left;
 }
@@ -144,11 +182,18 @@ footer p {
     }
   
 
-  #projects .card .project-description {
-    display: none;
-}
-
 #projects .card:target .project-description {
     display: block;
 }
+
+#contact-info ul {
+    
+     padding-top: 15px;
+     text-align: left;
+ }
+
+
+
+
+
 }
