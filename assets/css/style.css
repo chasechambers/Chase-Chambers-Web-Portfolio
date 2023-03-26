@@ -61,9 +61,7 @@ main {
     height: auto;
     text-align: center;
     background-color: var(--main-background-color);
-    background-image: url("../images/background-image.jpg");
     background-image: no-repeat;
-    color: var(--main-color);
 }
 
 #about-me,
