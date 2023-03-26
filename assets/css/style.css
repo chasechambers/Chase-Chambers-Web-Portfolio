@@ -81,9 +81,9 @@ main {
     margin: 50px auto 50px auto;
     text-align: left;
     line-height: 2;
-    border: 10px forestgreen;
+    border: 10px var(--head-foot-background-color);
     border-style: solid;
-    background-color: forestgreen;
+    background-color: var(--head-foot-background-color);
     padding: 7px 0px 70px 5px;
 }
 
