@@ -61,7 +61,6 @@ main {
     height: auto;
     text-align: center;
     background-color: var(--main-background-color);
-    background-image: no-repeat;
 }
 
 #about-me,
