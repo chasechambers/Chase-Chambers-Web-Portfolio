@@ -48,7 +48,7 @@ header li {
 }
 
 header .menu-section {
-    float:right;
+    float: right;
 }
 
 /* MAIN BODY SECTION */
@@ -86,7 +86,7 @@ main {
 
 /* TECHNICAL TOOLBOX SECTION */
 
-.list-items {
+.content li {
     display: inline-block;
     padding: 20px 10px 20px 10px;
     list-style: none;
@@ -128,27 +128,29 @@ footer p {
     float: left;
 }
 
-/* TABLET AND SMALLER SETTINGS */
+/* TABLET AND SMALLER SETTINGS  */
 
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  
-
-#projects .card:target .project-description {
-    display: block;
+@media screen and (max-width: 900px) {
+ .content {
+    display: flex;
+    line-height: 2;
+    border: 10px var(--head-foot-background-color);
+    border-style: solid;
+    background-color: var(--head-foot-background-color);
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
+   .content li {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+   }
 
-#contact-info ul {
-    
-     padding-top: 15px;
-     text-align: left;
- }
-
-
-
-
-
+   .contact-info li {
+    padding: 5px;
+    display: inline;
+}
 }
