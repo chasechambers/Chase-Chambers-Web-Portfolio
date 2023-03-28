@@ -38,22 +38,16 @@ header {
     background-color: var(--head-foot-background-color);
     padding: 0px 20px;
     display: flex;
-    justify-content: space-between;
 }
 
 header h1 {
-    display: inline-block;
-    font-family: fasthand;
-}
+    font-family: fasthand;}
 
-header li {
-    display: inline-block;
+header .menu-section li {
     padding: 20px 10px 20px 10px;
+    display: inline-block;
 }
 
-.menu-section {
-    float: right;
-}
 
 /* MAIN BODY SECTION */
 
