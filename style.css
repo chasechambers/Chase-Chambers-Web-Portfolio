@@ -137,11 +137,11 @@ main {
 }
 
 .content .first-project-picture {
-  width: 75%;
+  width: 55%;
 }
 
 .content img {
-  width: 25%;
+  width: 35%;
 }
 
 /* CONTACT INFO SECTION */
@@ -198,5 +198,13 @@ footer p {
     display: flex;
     flex-direction: column;
     margin-left: -200px;
+  }
+
+  .content .first-project-picture {
+    width: 75%;
+  }
+
+  .content img {
+    width: 55%;
   }
 }
