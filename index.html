@@ -14,14 +14,17 @@
 </head>
 <body>
     <header id="header">
-        <h1>Hi! I'm Chase</h1>
-        <div class="menu-section">
-            <ul>
-                <li> <a href="#about-me">About Me</a></li>
-                <li> <a href="#skills">Skills</a></li>
-                <li> <a href="#projects">Projects</a></li>
-                <li>  <a href="#contact-info">Contact Info</a></li>
-            </ul>
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about-me">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-info">Contact Info</a>
+        </div>
+        <div class="header-content">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1>Hi! I'm Chase</h1>
         </div>
     </header>
     <main>
@@ -49,7 +52,7 @@
                 <div class="project-text">
                     <h3> Project 1 </h3>
                     <div class="project-description">
-                        <p>This is a description of this project.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet iaculis risus. Morbi pharetra neque in odio pulvinar, in gravida lectus viverra. Donec a dolor quis dolor commodo dignissim. Curabitur ac euismod orci. Suspendisse eleifend turpis justo, id gravida dui imperdiet quis..</p>
                     </div>
                 </div>
             </div>
@@ -106,5 +109,16 @@
         <p>Chase Chambers <span>&copy;</span>2023</p>
         <a href="#header">Return to Top</a>
     </footer>
+  
 </body>
+<script>/* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </html>

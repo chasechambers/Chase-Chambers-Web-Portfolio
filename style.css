@@ -32,21 +32,61 @@ h1 {
 
 header {
   background-color: var(--head-foot-background-color);
-  padding: 0px 20px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 header h1 {
   font-family: fasthand;
-  float: left;
 }
 
-header .menu-section ul li {
+/* header .menu-section ul li {
   padding: 20px 10px 20px 10px;
-  display: inline-block;
+  display: inline-block; */
+/* } */
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-left: 10px;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 /* MAIN BODY SECTION */
 
 main {
@@ -73,12 +113,12 @@ main {
   align-items: center;
 }
 
-.profile-pic {
+/* .profile-pic {
   float: left;
   width: 25%;
   margin-right: 30px;
   aspect-ratio: unset;
-}
+} */
 
 /* TECHNICAL TOOLBOX SECTION */
 
