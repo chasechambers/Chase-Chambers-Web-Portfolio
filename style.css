@@ -113,12 +113,12 @@ main {
   align-items: center;
 }
 
-/* .profile-pic {
+.profile-pic {
   float: left;
-  width: 25%;
+  width: 50%;
   margin-right: 30px;
   aspect-ratio: unset;
-} */
+}
 
 /* TECHNICAL TOOLBOX SECTION */
 
@@ -128,14 +128,20 @@ main {
   list-style: none;
 }
 
+/* PROJECT SECTION */
+
 .project-text {
   display: flex;
   margin-left: 5px;
   flex-direction: column;
 }
 
-img:nth-child(n + 3):nth-child(-n + 6) {
-  max-width: 10%;
+.content .first-project-picture {
+  width: 75%;
+}
+
+.content img {
+  width: 25%;
 }
 
 /* CONTACT INFO SECTION */
