@@ -11,8 +11,10 @@ This website is my Fullstack Portfolio, displaying my use of HTML,CSS, and JavaS
 ## Installation
 
 You can access the website through this link:
-
 https://chasechambers.github.io/Chase-Chambers-Web-Portfolio/
+
+Github Repo found here:
+https://github.com/chasechambers/Chase-Chambers-Web-Portfolio
 
 ## Usage
 
